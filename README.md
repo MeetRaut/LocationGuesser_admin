@@ -31,16 +31,14 @@ cd LocationGuesser_admin
 ```
 
 ### 2️⃣ Install Dependencies
-sh
-```
+```sh
 npm install
 ```
 
 ### 3️⃣ Setup Environment Variables
 Create a .env file in the root directory and add:
 
-sh
-```
+```sh
 VITE_FIREBASE_API_KEY=your_firebase_api_key
 VITE_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
 VITE_FIREBASE_DATABASE_URL=your_firebase_database_url
@@ -52,8 +50,7 @@ VITE_FIREBASE_APP_ID=your_firebase_app_id
 Replace your_firebase_* values with actual Firebase credentials.
 
 4️⃣ Start the Development Server
-sh
-```
+```sh
 npm run dev
 ```
 
